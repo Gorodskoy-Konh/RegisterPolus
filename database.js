@@ -6,7 +6,7 @@ const {Entity} = require('./entity');
 module.exports.Database = class Database {
     constructor() {
         const admin = require('firebase-admin');
-        const serviceAccount = require('./polusdatabase-firebase-adminsdk-53fu7-25a9e7b9ac.json');
+        const serviceAccount = require('./firebase.json');
         admin.initializeApp({
             credential: admin.credential.cert(serviceAccount)
         });
