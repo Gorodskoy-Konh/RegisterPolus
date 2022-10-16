@@ -1,0 +1,25 @@
+{
+  "name": "registrator",
+  "version": "1.0.0",
+  "description": "Microservice for registration",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gorodskoy-Konh/RegisterPolus.git"
+  },
+  "author": "NagimOS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gorodskoy-Konh/RegisterPolus/issues"
+  },
+  "homepage": "https://github.com/Gorodskoy-Konh/RegisterPolus#readme",
+  "dependencies": {
+    "@google-cloud/firestore": "^6.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.1.0"
+  }
+}
